@@ -1,4 +1,98 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+body {
+    background-color: antiquewhite;
 }
+.wrapper1 {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    padding: 20px;
+    font-family: 'Brush Script MT', cursive;
+    background-color: #953553;
+  }
+
+  .wrapper1 h1 {
+     text-align: center;
+     width: 100%;
+     font-size: 75px;
+
+  }
+
+  .wrapper1 img {
+    max-height: 150px;
+}
+
+.wrapper2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+  }
+  
+  .wrapper2 ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none; /* very important, had to look this up to get rid of the dumb bullet points */
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    
+  }
+  
+  .wrapper2 li {
+    flex: 1; /* One of the smallest yet most important lines. */ 
+    text-align: center;
+  }
+  
+  .wrapper2 div {
+    background-color: #953553;
+    padding: 24px;
+    margin: 5px;
+    color: black;
+  }
+
+  .wrapperFlexer {
+    display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 14px;
+  }
+
+  .wrapper3 {
+    width: 60%;
+    padding: 8px;
+    background-color: #953553;
+    
+  }
+  .wrapper3 h2 {
+    text-align: center;
+     font-size: 44px;
+  }
+  
+  .wrapper4 {
+    width: 40%;
+    display: grid;
+    gap: 4px;  
+    padding: 24px;
+    background-color: #953553;
+  }
+  
+  .wrapper4 h2 {
+    text-align: center;
+    font-size: 44px;
+    grid-column: span 2;  
+  }
+  
+  .wrapper4 img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .wrapperFooter {
+    width: 100%;
+    background-color: #953553;
+    color: black;
+    
+  }
