@@ -22,8 +22,8 @@ you do not need to setup a local server to run the project.
 
 ## Testing
 
-To run the tests for the project, run the following command:
+No testing was utilized for this project. Just visually identifying issues in the live server preview!
 
-```bash
-npm test
-```
+
+## Usage
+Assuming you have the valid extension above, on windows use ctrl-shift-P and find "Live preview: Start Server" to see the webpage. You can also click the searchbar at the top and add ">" before typing the same thing.
